@@ -1,9 +1,15 @@
-/* Reset some default styling */
+
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
 
 /* Body and general layout */
 body {
@@ -11,6 +17,9 @@ body {
     line-height: 1.6;
     color: #333;
     background-color: #f4f4f4;
+}
+.container img{
+    border-radius: 22rex;
 }
 
 /* Header Section */
@@ -27,8 +36,9 @@ header .container {
     align-items: center;
     max-width: 1200px;
     margin: 0 auto;
-    padding: 0 20px;
+    padding:  20px;
 }
+
 
 header h1 {
     font-size: 24px;
@@ -57,6 +67,26 @@ header nav ul li a {
     font-style: italic;
     font-family: sans-serif;
 }
+
+.btn-contact {
+    display: inline-block;
+    background-color: #4CAF50; /* Green background */
+    color: white; /* White text */
+    padding: 10px 20px; /* Padding for size */
+    font-size: 1rem; /* Font size */
+    border: none; /* No border */
+    border-radius: 5px; /* Rounded corners */
+    text-align: center; /* Center text */
+    text-decoration: none; /* Remove underline */
+    cursor: pointer; /* Pointer cursor */
+    transition: background-color 0.3s, transform 0.2s; /* Smooth hover effect */
+}
+
+.btn-contact:hover {
+    background-color: #45a049; /* Slightly darker green on hover */
+    transform: scale(1.05); /* Slightly grow on hover */
+}
+
 
 #intro h2 {
     font-size: 36px;
@@ -105,7 +135,7 @@ header nav ul li a {
     background: #f4f4f4;
     padding: 40px 20px;
     font-family: fantasy;
-    color: green;
+    color: black;
 
 }
 
@@ -168,7 +198,7 @@ header nav ul li a {
 
 /* Footer Section */
 footer {
-    background: #333;
+    background: #222;
     color: #fff;
     padding: 20px;
     text-align: center;
@@ -176,12 +206,17 @@ footer {
 
 footer .social-links a {
     margin: 0 10px;
-    color: #fff;
+    color: white;
+}
+footer .social-links a img {
+    width: 20px;
+    height: 30px;
 }
 
-footer .social-links a img {
-    width: 30px;
-    height: 30px;
+.social-links a:hover {
+    color: chartreuse;
+    transform: scale(1.1);
+    transition: all 0.3s ease-in-out;
 }
 
 /* Responsive Design */
@@ -190,6 +225,13 @@ footer .social-links a img {
         flex-direction: column;
         text-align: center;
     }
+    @media (max-width: 768px) {
+    .social-links a {
+        margin: 0 5px;
+        font-size: 1.2rem;
+    }
+}
+
 
     header nav ul {
         margin-top: 20px;

@@ -1,197 +1,257 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Portfolio-NMECHA AMARACHI</title>
-    <link rel="stylesheet" href="styles.css">
-    <link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet">
-    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Portfolio - NMECHA AMARACHI</title>
+  <link rel="stylesheet" href="styles.css" />
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js" defer></script>
+  <script src="styles.js" defer></script>
+<link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet">
+<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" rel="stylesheet">
 
 </head>
-
 <body>
-    <header>
-        <div class="container">
-            <img src="" alt="Nmecha CODE LAB">
-            <h1>NMECHA AMARACHI</h1>
-            <p>FRONT-END WEB DEVELOPER</p>
-            <nav>
-                <ul>
-                    <li><a href="#skills">Skills</a></li>
-                    <li><a href="#projects">Projects</a></li>
-                    <li><a href="#contact">Contact</a></li>
-                </ul>
-            </nav>
+  <header>
+    <img class="profile-img" src="images/024ca2a1-6240-4de4-9e06-15c632d1fa07.jpg" alt="Nmecha CODE LAB" />
+    <h1>NMECHA AMARACHI</h1>
+    <p>TECH QUEEN</p>
+  </header>
+
+        <nav>
+    <ul>
+    <li><a href="#intro">About</a></li>
+      <li><a href="#skills">Skills</a></li>
+      <li><a href="#projects">Projects</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+  </nav>
+
+  <section id="intro">
+    <div class="container">
+      <h2>Hello, I am <span class="highlight">NMECHA AMARACHI</span></h2>
+        <p class="subtitle">A passionate <strong>Front-End Web Developer</strong> creating responsive and interactive websites using HTML, CSS, and JavaScript.</p>
+
+      <div class="info-block">
+        <h3>My Aim</h3>
+        <p>To grow into a world-class Front-end developer, contribute to impactful tech projects, and inspire more young people—especially women—to explore technology.</p>
+      </div>
+
+      <div class="info-block">
+        <h3>My Mission</h3>
+        <p>To use web development as a tool to solve real-life problems, create accessible digital solutions, and inspire others—especially women—who want to break into tech.</p>
+
+      </div>
+
+      <div class="info-block">
+        <h3>My Goals</h3>
+        <ul class="goals-list">
+          <li>Build and contribute to real-world projects</li>
+          <li>Master Front-end frameworks and tools</li>
+          <li> Inspire and mentor upcoming female developers</li>
+        <li> Stay updated and always keep learning</li>
+
+        </ul>
+      </div>
+
+      <div class="info-block">
+        <h3>My Vision</h3>
+        <p>To become a highly skilled Front-end developer...</p>
+      </div>
+
+      <div class="quote-box">
+        <h3>Quote</h3>
+        <p>"Don't wait for opportunity. Create it—with code, courage, and consistency."</p>
+      </div>
+  
+
+      <button class="btn-contact" onclick="location.href='#contact'">Contact Me</button>
+    </div>
+  </section>
+<button id="theme-toggle">🌙</button>
+<section id="skills">
+  <div class="container">
+    <h2>My Skills</h2>
+
+    <div class="skill">
+      <h3>HTML</h3>
+      <div class="progress-bar">
+        <div class="progress" data-percentage="90">0%</div>
+      </div>
+    </div>
+
+    <div class="skill">
+      <h3>CSS</h3>
+      <div class="progress-bar">
+        <div class="progress" data-percentage="83">0%</div>
+      </div>
+    </div>
+
+    <div class="skill">
+      <h3>JavaScript</h3>
+      <div class="progress-bar">
+        <div class="progress" data-percentage="77">0%</div>
+      </div>
+    </div>
+
+    <div class="skill">
+      <h3>React</h3>
+      <div class="progress-bar">
+        <div class="progress" data-percentage="59">0%</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+  <div id="projects">
+    <div class="container">
+      <h2>My Projects</h2>
+      <div class="projects-grid">
+        <div class="project">
+          <img src="images/Capture.PNG" alt="Project 1" />
+          <h4>CALENDAR</h4>
+          <p>You will never find time for anything...</p>
+          <button onclick="window.location.href='https://amararoyality.github.io/mini-calender/'">View Project</button>
         </div>
-    </header>
 
-
-    
-    </section>
-     
-
-    <section id="projects">
-        <div class="container">
-            <h2>My Projects</h2>
-            <div class="projects-grid">
-                <!-- Each project -->
-                <div class="project">
-                    <img src="images/Capture.PNG" alt="Project 1">
-                    <h3>Calendar</h3>
-                    <button onclick="window.location.href='https://amararoyality.github.io/mini-calender/'">View Project</button>
-                </div>
-                     <div class="project">
-                    <img src="images/download (1).jpg" alt="project 6">
-                    <h3>PRODUCT SHOWCASE PRATICE</h3>
-                    <!-- <p>showcase</p> -->
+        <div class="project">
+                    <img src="images/download (1).jpg" alt="project 2">
+                    <h4>PRODUCT SHOWCASE PRATICE</h4>
                     <button onclick="window.location.href='https://amararoyality.github.io/showcase/'">View project</button>
                 </div>
 
                 <div class="project">
-                <img src="images/coffee.jpg" alt="project 7">
-                        <h3>COFFEE STORE</h3>
-                        <!-- <p>Coffee store</p> -->
+                <img src="images/coffee.jpg" alt="project 3">
+                        <h4>COFFEE STORE</h4>
                         <button onclick="window.location.href='https://amararoyality.github.io/coffee/'">View Project</button>
-
-                </div>
-                div
+                      </div>
 
                 <div class="project">
-                    <img src="images/download (5).jpg" alt="project 8">
-                    <h3>IMAGE GENERATOR</h3>
-                    <!-- <p>Image generator</p> -->
+                    <img src="images/download (5).jpg" alt="project 4">
+                    <h4>IMAGE GENERATOR</h4>
                     <button onclick="window.location.href='https://amararoyality.github.io/image-gene/'">View project</button>
                 </div>
 
                 <div class="project">
-                    <img src="images/AMARA.jpeg" alt="project 9">
-                    <h3>TESTIMONIAL </h3>
-                    <!-- <p>Testimonial Slider</p> -->
+                    <img src="images/AMARA.jpeg" alt="project 5">
+                    <h4>TESTIMONIAL </h4>
                     <button onclick="window.location.href='https://amararoyality.github.io/slider/'">View project</button>
                 </div>
 
-                
                 <div class="project ">
-                    <img src="images/password.PNG" alt="project 10">
-                    <h3>PASSWORD GENERATOR</h3>
-                    <!-- <p>Password generator</p> -->
+                    <img src="images/password.PNG" alt="project 6">
+                    <h4>PASSWORD GENERATOR</h4>
                     <button onclick="window.location.href='https://amararoyality.github.io/password/'">View project</button>
                 </div>
-            </div>
 
                 <div class="project">
-                    <img src="images/cloud.jpg" alt="project 11">
-                    <h3>WEATHER APP</h3>
-                    <!-- <p>Weather App</p> -->
+                    <img src="images/cloud.jpg" alt="project 7">
+                    <h4>WEATHER APP</h4>
                     <button onclick="window.location.href='https://amararoyality.github.io/weather-app/'">View project</button>
                     </div>
 
                  <div class="project">
-                    <img src="images/images (5).jpg" alt="project 12">
-                    <h2>IMAGE GALLERY</h2>
+                    <img src="images/images (5).jpg" alt="project 8">
+                    <h4>IMAGE GALLERY</h4>
                     <button onclick="window.location.href=' https://amararoyality.github.io/random-image-gallery/'">View project</button>
                 </div>
 
                  <div class="project">
-                    <img src="images/mon.jpg" alt="project 13">
-                    <h2>COFFEE STORE</h2>
+                    <img src="images/mon.jpg" alt="project 9">
+                    <h3>COFFEE STORE</h3>
                     <button onclick="window.location.href=' https://amararoyality.github.io/online-store/'">View Project</button>
                 </div>
 
                 <div class="project">
-                    <img src="images/Screenshot_17-6-2025_142539_amararoyality.github.io.jpeg" alt="Project 14">
-                    <h2>QUOTE GENERATOR</h2>
+                    <img src="images/Screenshot_17-6-2025_142539_amararoyality.github.io.jpeg" alt="Project 10">
+                    <h4>QUOTE GENERATOR</h4>
                     <button onclick="window.location.href=' https://amararoyality.github.io/quote-generator-/'">View project</button>
                 </div>
                 
 
 
                 <div class="project">
-                    <img src="images/download.jpg" alt="project 15">
-                    <h2>STOPWATCH</h2>
+                    <img src="images/download.jpg" alt="project 11">
+                    <h4>STOPWATCH</h4>
                     <button onclick="window.location.href= 'https://amararoyality.github.io/stopwatch/' ">View project</button>
                 </div>
+
                 <div class="project">
-                    <img src="images/Screenshot_23-6-2025_14949_amararoyality.github.io.jpeg" alt="project 16">
-                    <h2>MEME GENERATOR</h2>
+                    <img src="images/Screenshot_23-6-2025_14949_amararoyality.github.io.jpeg" alt="project 12">
+                    <h4>MEME GENERATOR</h4>
                        <button onclick="window.location.href= 'https://amararoyality.github.io/meme-generator/' ">View project</button>
-                </div>
-                <div class="project">
-                    <img src="" alt="">
-                    <h2></h2>
-                    <button onclick="window.location.href='https://amararoyality.github.io/'">View project</button>
-
-                </div>
-
+                      </div>
+                       
+                       <div class="project">
+                    <img src="images/product-8-1.jpg" alt="project 13">
+                    <h4>FASHION HOUSE</h4>
+                    <button onclick="window.location.href='https://amararoyality.github.io/nmecha-e-commerce-/'">View project</button>
+                  </div>
             </div>
-        </div>
-    </section>
-    <section id="testimonials">
-        <div class="container">
-        <h2>Testimonials</h2>
-        <div>
-            <div class="testimonial">
-                <p>"Great work! Highly recommend."</p>
-                <span>- Client A</span>
-            </div>
-            <div class="testimonial">
-                <p>"Delivered on time and exceeded expectations."</p>
-                <span>- Client B</span>
-            </div>
-        </div>
-    </section>
 
-    <section id="contact">
-        <div class="container">
-            <h2>Contact Me</h2>
-            <form id="contact-form" action="mailto:nmechaamarachi9@gmail.com" method="post" enctype="text/plain">
-                <label for="surname">Surname</label>
-                <input type="text" name="surname" id="surname" required>
 
-                <label for="firstname">First Name</label>
-                <input type="text" name="firstname" id="firstname" required>
+<section id="testimonials">
+  <div class="container">
+    <h2>Testimonials</h2>
+    <div class="testimonials-wrapper">
+      <div class="testimonial">
+        <p>"Great work! Highly recommend."</p>
+        <span>- Client A</span>
+      </div>
+      <div class="testimonial">
+        <p>"Delivered on time and exceeded expectations."</p>
+        <span>- Client B</span>
+      </div>
+    </div>
+  </div>
+</section>
 
-                <label for="lastname">Last Name</label>
-                <input type="text" name="lastname" id="lastname" required>
+<section id="contact">
+  <div class="container">
+    <h2>Contact Me</h2>
+    <form id="contact-form" action="https://formspree.io/f/yourformid" method="POST">
+      <label for="surname">Surname</label>
+      <input type="text" name="surname" id="surname" required>
 
-                <label for="email">Your Email</label>
-                <input type="email" name="email" id="email" required>
+      <label for="firstname">First Name</label>
+      <input type="text" name="firstname" id="firstname" required>
 
-                <label for="number">Phone Number</label>
-                <input type="tel" name="number" id="phone-number" required>
+      <label for="lastname">Last Name</label>
+      <input type="text" name="lastname" id="lastname" required>
 
-                <label for="message">Your Message</label>
-                <textarea id="message" name="message" required></textarea>
+      <label for="email">Your Email</label>
+      <input type="email" name="email" id="email" required>
 
-                <button type="submit">Send Message</button>
-            </form>
-        </div>
-    </section>
+      <label for="number">Phone Number</label>
+      <input type="tel" name="number" id="phone-number" required>
+
+      <label for="message">Your Message</label>
+      <textarea id="message" name="message" required></textarea>
+
+      <button type="submit">Send Message</button>
+    </form>
+  </div>
+</section>
+
+
+<footer>
+  <di class="container">
+    <div class="social-links">
+    <div class="social-links">
+  <a href="https://github.com/AmaraRoyality" target="_blank"><i class="ri-github-line"></i></a>
+  <a href="https://facebook.com/profile.php?id=61572922282948" target="_blank"><i class="ri-facebook-fill"></i></a>
+  <a href="https://instagram.com" target="_blank"><i class="ri-instagram-fill"></i></a>
+  <a href="https://wa.me/2349066635963" target="_blank"><i class="ri-whatsapp-fill"></i></a>
+  <a href="https://www.tiktok.com/@calantha48" target="_blank"><i class="fab fa-tiktok"></i></a>
+</div>
+
+</footer>
 
     <footer>
-        <div class="container">
-            <div class="social-links">
-                <a href="https://github.com/AmaraRoyality" target="_blank"><i class="ri-github-line"></i></a>
-                <a href="https://www.facebook.com/profile.php?id=61572922282948" target="_blank"><i class="ri-facebook-fill"></i></a>
-                <a href="https://instagram.com" target="_blank"><i class="ri-instagram-fill"></i></a>
-                 <a href="https://wa.me/2349066635963" target="_blank"><i class="ri-whatsapp-fill"></i></a>
-                 <a href="https://www.tiktok.com/@calantha48" target="_blank"><i class="fab fa-tiktok"></i></a>
-
-                
-
-            </div>
             <p style="margin: 0; font-size: 0.875rem; font-style: italic;">
     &copy; 2025 Nmecha Amarachi. All rights reserved. 
     <span style="color: #ffcc00;">Crafted with passion</span> & 💻 from Nigeria.
 </p>
-  
-
-        </div>
+  </div>
     </footer>
-
-    <script src="styles.js"></script>
-</body>
-
 </html>

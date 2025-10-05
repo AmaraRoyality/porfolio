@@ -9,6 +9,7 @@
   <script src="styles.js" defer></script>
 <link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet">
 <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
 
 </head>
 <body>
@@ -17,7 +18,7 @@
     <h1>NMECHA AMARACHI</h1>
     <p>TECH QUEEN</p>
   </header>
-
+  <div class="nav"></div>
         <nav>
     <ul>
     <li><a href="#intro">About</a></li>
@@ -50,14 +51,13 @@
           <li>Master Front-end frameworks and tools</li>
           <li> Inspire and mentor upcoming female developers</li>
         <li> Stay updated and always keep learning</li>
-
-        </ul>
+      </ul>
       </div>
 
       <div class="info-block">
         <h3>My Vision</h3>
-        <p>To become a highly skilled Front-end developer...</p>
-      </div>
+       <p>To become a highly skilled Front-end developer who builds visually stunning, responsive, and user-centric web applications. I aim to continuously grow in my craft by mastering modern technologies, embracing creativity, and delivering digital experiences that are both functional and impactful. Through innovation, collaboration, and a strong focus on user experience, I aspire to contribute to projects that make a positive difference in people's lives and set new standards in web development.</p>
+</div>
 
       <div class="quote-box">
         <h3>Quote</h3>
@@ -73,33 +73,50 @@
   <div class="container">
     <h2>My Skills</h2>
 
-    <div class="skill">
-      <h3>HTML</h3>
-      <div class="progress-bar">
-        <div class="progress" data-percentage="90">0%</div>
-      </div>
-    </div>
+    
+    <div class="skills-category">
+      <h3>Frontend Development</h3>
 
-    <div class="skill">
-      <h3>CSS</h3>
-      <div class="progress-bar">
-        <div class="progress" data-percentage="83">0%</div>
-      </div>
-    </div>
+      <div class="skill">
+        <h4><i class="fab fa-html5"></i> HTML</h4>
 
-    <div class="skill">
-      <h3>JavaScript</h3>
-      <div class="progress-bar">
-        <div class="progress" data-percentage="77">0%</div>
+        <div class="progress-bar">
+          <div class="progress" data-percentage="90">0%</div>
+        </div>
       </div>
-    </div>
 
-    <div class="skill">
-      <h3>React</h3>
-      <div class="progress-bar">
-        <div class="progress" data-percentage="59">0%</div>
-      </div>
-    </div>
+      <div class="skill">
+  <h4><i class="fab fa-css3-alt"></i> CSS</h4>
+  <div class="progress-bar">
+    <div class="progress" data-percentage="83">0%</div>
+  </div>
+</div>
+
+
+     <div class="skill">
+  <h4><i class="fab fa-js-square"></i> JavaScript</h4>
+  <div class="progress-bar">
+    <div class="progress" data-percentage="77">0%</div>
+  </div>
+</div>
+
+
+      <div class="skill">
+  <h4><i class="fab fa-react"></i> React</h4>
+  <div class="progress-bar">
+    <div class="progress" data-percentage="59">0%</div>
+  </div>
+</div>
+
+    <div class="skills-category">
+      <h4>Tools & Version Control</h4>
+      <div class="skill">
+  <h4><i class="fab fa-git-alt"></i> Git</h4>
+  <div class="progress-bar">
+    <div class="progress" data-percentage="89">0%</div>
+  </div>
+</div>
+
   </div>
 </section>
 
@@ -107,87 +124,167 @@
     <div class="container">
       <h2>My Projects</h2>
       <div class="projects-grid">
-        <div class="project">
-          <img src="images/Capture.PNG" alt="Project 1" />
-          <h4>CALENDAR</h4>
-          <p>You will never find time for anything...</p>
-          <button onclick="window.location.href='https://amararoyality.github.io/mini-calender/'">View Project</button>
-        </div>
+        
+       <div class="project">
+  <img src="images/Capture.PNG" alt="Calendar Project Screenshot" />
+  <h4>CALENDAR</h4>
+  <p class="quote-text">"You will never find time for anything. If you want time, you must make it — and that’s exactly what inspired this calendar app: a simple tool to help people take control of their day, one task at a time."</p>
+<p><strong>Technologies Used:</strong> HTML, CSS, JavaScript</p>
+<div class="project-links">
+    <button onclick="window.location.href='https://amararoyality.github.io/mini-calender/'">Live Demo</button>
+    <button onclick="window.location.href='https://github.com/Amararoyality/mini-calender'">GitHub</button>
+  </div>
+</div>
 
-        <div class="project">
-                    <img src="images/download (1).jpg" alt="project 2">
-                    <h4>PRODUCT SHOWCASE PRATICE</h4>
-                    <button onclick="window.location.href='https://amararoyality.github.io/showcase/'">View project</button>
-                </div>
 
-                <div class="project">
-                <img src="images/coffee.jpg" alt="project 3">
-                        <h4>COFFEE STORE</h4>
-                        <button onclick="window.location.href='https://amararoyality.github.io/coffee/'">View Project</button>
-                      </div>
+        
+  <div class="project">
+  <img src="images/download (1).jpg" alt="Product Showcase Practice Project Screenshot">
+  <h4>PRODUCT SHOWCASE PRACTICE</h4>
+  <p class="quote-text">"Every great product deserves to be seen — this showcase was built to highlight design, detail, and functionality with clarity and style."</p>
+<p><strong>Technologies Used:</strong> HTML, CSS, JavaScript</p>
+<div class="project-links">
+    <button onclick="window.location.href='https://amararoyality.github.io/showcase/'">Live Demo</button>
+    <button onclick="window.location.href='https://github.com/Amararoyality/showcase'">GitHub</button>
+  </div>
+</div>
 
-                <div class="project">
-                    <img src="images/download (5).jpg" alt="project 4">
-                    <h4>IMAGE GENERATOR</h4>
-                    <button onclick="window.location.href='https://amararoyality.github.io/image-gene/'">View project</button>
-                </div>
 
-                <div class="project">
-                    <img src="images/AMARA.jpeg" alt="project 5">
-                    <h4>TESTIMONIAL </h4>
-                    <button onclick="window.location.href='https://amararoyality.github.io/slider/'">View project</button>
-                </div>
+<div class="project">
+  <img src="images/coffee.jpg" alt="Coffee Store Project Screenshot">
+  <h4>COFFEE STORE</h4>
+  <p class="quote-text">"More than just coffee — this store is brewed with design, crafted for comfort, and served with a smooth user experience."</p>
+<p><strong>Technologies Used:</strong> HTML, CSS, JavaScript</p>
+<div class="project-links">
+    <button onclick="window.location.href='https://amararoyality.github.io/coffee/'">Live Demo</button>
+    <button onclick="window.location.href='https://github.com/Amararoyality/coffee'">GitHub</button>
+  </div>
+</div>
 
-                <div class="project ">
-                    <img src="images/password.PNG" alt="project 6">
-                    <h4>PASSWORD GENERATOR</h4>
-                    <button onclick="window.location.href='https://amararoyality.github.io/password/'">View project</button>
-                </div>
 
-                <div class="project">
-                    <img src="images/cloud.jpg" alt="project 7">
-                    <h4>WEATHER APP</h4>
-                    <button onclick="window.location.href='https://amararoyality.github.io/weather-app/'">View project</button>
-                    </div>
+  <div class="project">
+  <img src="images/download (5).jpg" alt="Image Generator Project Screenshot">
+  <h4>IMAGE GENERATOR</h4>
+  <p class="quote-text">"Where imagination meets code — this image generator turns ideas into visuals with just a click."</p>
+<p><strong>Technologies Used:</strong> HTML, CSS, JavaScript</p>
+<div class="project-links">
+  <button onclick="window.location.href='https://amararoyality.github.io/image-gene/'">Live Demo</button>
+    <button onclick="window.location.href='https://github.com/Amararoyality/image-gene'">GitHub</button>
+  </div>
+</div>
 
-                 <div class="project">
-                    <img src="images/images (5).jpg" alt="project 8">
-                    <h4>IMAGE GALLERY</h4>
-                    <button onclick="window.location.href=' https://amararoyality.github.io/random-image-gallery/'">View project</button>
-                </div>
 
-                 <div class="project">
-                    <img src="images/mon.jpg" alt="project 9">
-                    <h3>COFFEE STORE</h3>
-                    <button onclick="window.location.href=' https://amararoyality.github.io/online-store/'">View Project</button>
-                </div>
+<div class="project">
+  <img src="images/tes.jpg" alt="Testimonial Slider Project Screenshot">
+  <h4>TESTIMONIAL SLIDER</h4>
+  <p class="quote-text">"Real voices, real feedback — this testimonial slider brings stories to life with smooth, engaging transitions."</p>
+<p><strong>Technologies Used:</strong> HTML, CSS, JavaScript</p>
+<div class="project-links">
+    <button onclick="window.location.href='https://amararoyality.github.io/slider/'">Live Demo</button>
+    <button onclick="window.location.href='https://github.com/Amararoyality/slider'">GitHub</button>
+  </div>
+</div>
 
-                <div class="project">
-                    <img src="images/Screenshot_17-6-2025_142539_amararoyality.github.io.jpeg" alt="Project 10">
-                    <h4>QUOTE GENERATOR</h4>
-                    <button onclick="window.location.href=' https://amararoyality.github.io/quote-generator-/'">View project</button>
-                </div>
+
+  <div class="project">
+  <img src="images/password.PNG" alt="Password Generator Project Screenshot">
+  <h4>PASSWORD GENERATOR</h4>
+  <p class="quote-text">"Security starts with a strong password — this generator makes it effortless to stay safe, one click at a time."</p>
+<p><strong>Technologies Used:</strong> HTML, CSS, JavaScript</p>
+<div class="project-links">
+    <button onclick="window.location.href='https://amararoyality.github.io/password/'">Live Demo</button>
+    <button onclick="window.location.href='https://github.com/Amararoyality/password'">GitHub</button>
+  </div>
+</div>
+
+
+<div class="project">
+  <img src="images/cloud.jpg" alt="Weather App Project Screenshot">
+  <h4>WEATHER APP</h4>
+  <p class="quote-text">"Bringing the forecast to your fingertips — this weather app delivers real-time updates with a clean, intuitive design."</p>
+<p><strong>Technologies Used:</strong> HTML, CSS, JavaScript, OpenWeatherMap API</p>
+<div class="project-links">
+    <button onclick="window.location.href='https://amararoyality.github.io/weather-app/'">Live Demo</button>
+    <button onclick="window.location.href='https://github.com/Amararoyality/weather-app'">GitHub</button>
+  </div>
+</div>
+
+
+  <div class="project">
+  <img src="images/images (5).jpg" alt="Image Gallery Project Screenshot">
+  <h4>IMAGE GALLERY</h4>
+  <p class="quote-text">"A visual journey in every scroll — this image gallery showcases photos with elegance, simplicity, and seamless navigation."</p>
+<p><strong>Technologies Used:</strong> HTML, CSS, JavaScript</p>
+<div class="project-links">
+    <button onclick="window.location.href='https://amararoyality.github.io/random-image-gallery/'">Live Demo</button>
+    <button onclick="window.location.href='https://github.com/Amararoyality/random-image-gallery'">GitHub</button>
+  </div>
+</div>
+
+
                 
+<div class="project">
+  <img src="images/mon.jpg" alt="Coffee Store Project Screenshot">
+  <h4>COFFEE STORE</h4>
+  <p class="quote-text">"Crafted for coffee lovers — this store blends rich visuals, smooth shopping, and the warmth of every perfect cup."</p>
+<p><strong>Technologies Used:</strong> HTML, CSS, JavaScript</p>
+  <div class="project-links">
+    <button onclick="window.location.href='https://amararoyality.github.io/online-store/'">Live Demo</button>
+    <button onclick="window.location.href='https://github.com/Amararoyality/online-store'">GitHub</button>
+  </div>
+</div>
+
+               
+<div class="project">
+  <img src="images/Screenshot_17-6-2025_142539_amararoyality.github.io.jpeg" alt="Quote Generator Project Screenshot">
+  <h4>QUOTE GENERATOR</h4>
+  <p class="quote-text">"A spark of inspiration with every click — this quote generator delivers words that motivate, uplift, and ignite ideas."</p>
+  <p><strong>Technologies Used:</strong> HTML, CSS, JavaScript, Quote API</p>
+<div class="project-links">
+    <button onclick="window.location.href='https://amararoyality.github.io/quote-generator-/'">Live Demo</button>
+    <button onclick="window.location.href='https://github.com/Amararoyality/quote-generator-'">GitHub</button>
+  </div>
+</div>
 
 
-                <div class="project">
-                    <img src="images/download.jpg" alt="project 11">
-                    <h4>STOPWATCH</h4>
-                    <button onclick="window.location.href= 'https://amararoyality.github.io/stopwatch/' ">View project</button>
-                </div>
 
-                <div class="project">
-                    <img src="images/Screenshot_23-6-2025_14949_amararoyality.github.io.jpeg" alt="project 12">
-                    <h4>MEME GENERATOR</h4>
-                       <button onclick="window.location.href= 'https://amararoyality.github.io/meme-generator/' ">View project</button>
-                      </div>
+  <div class="project">
+  <img src="images/download.jpg" alt="Stopwatch Project Screenshot">
+  <h4>STOPWATCH</h4>
+  <p class="quote-text">"Every second counts — this stopwatch is built for precision, simplicity, and perfect timing."</p>
+<p><strong>Technologies Used:</strong> HTML, CSS, JavaScript</p>
+<div class="project-links">
+    <button onclick="window.location.href='https://amararoyality.github.io/stopwatch/'">Live Demo</button>
+    <button onclick="window.location.href='https://github.com/Amararoyality/stopwatch'">GitHub</button>
+  </div>
+</div>
+
+
+    <div class="project">
+  <img src="images/Screenshot_23-6-2025_14949_amararoyality.github.io.jpeg" alt="Meme Generator Project Screenshot">
+  <h4>MEME GENERATOR</h4>
+  <p class="quote-text">"Turn thoughts into laughs — this meme generator makes humor instant, shareable, and endlessly fun."</p>
+  <p><strong>Technologies Used:</strong> HTML, CSS, JavaScript</p>
+  <div class="project-links">
+    <button onclick="window.location.href='https://amararoyality.github.io/meme-generator/'">Live Demo</button>
+    <button onclick="window.location.href='https://github.com/Amararoyality/meme-generator'">GitHub</button>
+  </div>
+</div>
+
                        
-                       <div class="project">
-                    <img src="images/product-8-1.jpg" alt="project 13">
-                    <h4>FASHION HOUSE</h4>
-                    <button onclick="window.location.href='https://amararoyality.github.io/nmecha-e-commerce-/'">View project</button>
-                  </div>
+         <div class="project">
+        <img src="images/product-8-1.jpg" alt="project 13">
+        <h4>FASHION HOUSE</h4>
+        <p class="quote-text">"Where style meets code — this fashion house project blends modern design with a seamless shopping experience."</p>
+        <p><strong>Technologies Used:</strong> HTML, CSS, JavaScript</p>
+        <div class="project-links"></div>
+        <button onclick="window.location.href='https://amararoyality.github.io/nmecha-e-commerce-'">Live Demo</button>
+        <button onclick="window.location.href='https://amararoyality.github.io/nmecha-e-commerce-/'">View project</button>
+        </div>
             </div>
+
+          
+
 
 
 <section id="testimonials">
@@ -235,14 +332,14 @@
 
 
 <footer>
-  <di class="container">
+  <div class="container">
     <div class="social-links">
     <div class="social-links">
   <a href="https://github.com/AmaraRoyality" target="_blank"><i class="ri-github-line"></i></a>
   <a href="https://facebook.com/profile.php?id=61572922282948" target="_blank"><i class="ri-facebook-fill"></i></a>
   <a href="https://instagram.com" target="_blank"><i class="ri-instagram-fill"></i></a>
   <a href="https://wa.me/2349066635963" target="_blank"><i class="ri-whatsapp-fill"></i></a>
-  <a href="https://www.tiktok.com/@calantha48" target="_blank"><i class="fab fa-tiktok"></i></a>
+  <a href="https://www.tiktok.com/@techqueen0011" target="_blank"><i class="fab fa-tiktok"></i></a>
 </div>
 
 </footer>
